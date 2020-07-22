@@ -16,7 +16,7 @@ public class calculate {
             minus(x, y);
         }
         else {
-            System.out.println("Digite a intrução: somar, dividir, multiplicar ou subtrair acompanhado de DOIS NUMEROS")
+            System.out.println("Digite a intrução: somar, dividir, multiplicar ou subtrair acompanhado de DOIS NUMEROS");
         }
     }
 
