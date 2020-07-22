@@ -5,8 +5,18 @@ public class calculate {
 
         if (args[0].equals("somar")) {
             sum(x, y);
-        } else if (args[0].equals("subtrair")) {
+        }
+        if (args[0].equals("dividir")){
+            division(x, y);
+        }
+        if (args[0].equals("multiplicar")){
+            multiple(x, y);
+        }
+        else if (args[0].equals("subtrair")) {
             minus(x, y);
+        }
+        else {
+            System.out.println("Digite a intrução: somar, dividir, multiplicar ou subtrair acompanhado de DOIS NUMEROS")
         }
     }
 
@@ -16,5 +26,13 @@ public class calculate {
 
     static void minus(int x, int y) {
         System.out.println(x - y);
+    }
+
+    static void division (int x, int y){
+        System.out.println (x / y);
+    }
+
+    static void multiple(int x, int y){
+        System.out.println(x * y);
     }
 }
